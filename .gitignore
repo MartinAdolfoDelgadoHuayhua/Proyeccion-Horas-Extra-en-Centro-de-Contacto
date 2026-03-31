@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Datos sensibles (no subir datos crudos si son confidenciales)
+# data/raw/*.csv   ← descomentar si aplica
+
+# Outputs grandes
+outputs/models/*.pkl
+outputs/figures/*.png
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
