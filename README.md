@@ -121,9 +121,6 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook notebooks/01_EDA_y_Proyecciones_HHEE.ipynb
 ```
-
-> También puedes abrirlo directamente en [Google Colab](https://colab.research.google.com/) subiendo el notebook y el CSV.
-
 ---
 
 ## Dependencias principales
@@ -146,22 +143,3 @@ jupyter notebook notebooks/01_EDA_y_Proyecciones_HHEE.ipynb
 - El número de personas en planilla varió mucho (6–29), lo que introduce ruido en las HHEE totales. Se recomienda priorizar el análisis sobre el **promedio por persona**.
 - No se dispone de datos de HHEE a nivel individual (agente), lo que impediría segmentar por perfil o antigüedad.
 
----
-
-## Próximos pasos
-
-- [ ] Incorporar datos de ausentismo como variable exógena en SARIMAX
-- [ ] Explorar modelos de ML supervisado (XGBoost, LightGBM) con features de calendario
-- [ ] Construir un dashboard en Power BI / Streamlit para monitoreo mensual
-- [ ] Ampliar el análisis a nivel de agente individual
-
----
-
-## Autor
-
-Equipo de People Analytics — Gestión Humana  
-*Proyecto interno — uso exclusivo de la organización*
-
----
-
-*Última actualización: Febrero 2026*
