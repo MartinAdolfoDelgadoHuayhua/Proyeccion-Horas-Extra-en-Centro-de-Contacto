@@ -99,30 +99,6 @@ Proyecciones Feb–Jul 2026
 - **Alerta operativa propuesta**: activar cuando HHEE promedio supere **55 h/persona/mes**.
 - **Impacto potencial**: anticipar el refuerzo de headcount en Ago con ~6 semanas de anticipación puede reducir el costo de HHEE en campaña hasta en un 20%.
 
----
-
-## Cómo usar este proyecto
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/overtime-analytics.git
-cd overtime-analytics
-```
-
-### 2. Instalar dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Ejecutar el notebook
-
-```bash
-jupyter notebook notebooks/01_EDA_y_Proyecciones_HHEE.ipynb
-```
----
-
 ## Dependencias principales
 
 | Librería | Versión mínima | Uso |
